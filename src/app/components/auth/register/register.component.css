@@ -1,0 +1,49 @@
+.register-container, .login-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button.btn-green {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50; /* verde */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.btn-green:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #007BFF; /* azul */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
